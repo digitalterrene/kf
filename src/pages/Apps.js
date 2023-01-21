@@ -6,12 +6,12 @@ import kepasm from '../assets/kepasm.png'
 const Apps = () => {
     return (
         <div className='w-full  text-white'>
-            <p className='text-4xl lg:text-6xl ml-12 my-8 text-purple-900 font-bold'>
+            <p className='text-4xl lg:text-6xl ml-4 lg:ml-12 my-8 text-purple-900 font-bold'>
                 Our Software Ecosystem
             </p>
             <div className='w-full lg:flex my-16 lg:my-32'>
                 <div className='lg:w-1/3 mt-16 lg:mt-48'>
-                    <p className='m-10 lg:m-20 mt-10 lg:mt-40'>
+                    <p className='m-10  lg:m-20 mt-10 lg:mt-40'>
                         …is the registry responsible for filling the
                         information of everyone who is in the Keng
                         ecosystem

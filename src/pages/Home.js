@@ -9,7 +9,7 @@ const Home = () => {
     const navigate = useNavigate()
     return (
         <div className='w-full text-sm lg:text-xl text-white'>
-            <div className='w-full lg:flex items-center  px-20'>
+            <div className='w-full lg:flex items-center px-3 lg:px-20'>
                 <div className='w-full lg:w-1/2'>
                     <p className='text-3xl lg:text-6xl font-bold'>
                         On your device.
@@ -25,15 +25,15 @@ const Home = () => {
                     <img className='rounded-3xl' src={work} alt='logo' />
                 </div>
             </div>
-            <p className='mt-20 lg:mt-56 px-8 lg:px-40 font-bold text-xl lg:text-4xl text-center'>
+            <p className='mt-20 lg:mt-56 px-3 lg:px-40 font-bold text-xl lg:text-4xl text-center'>
                 <a style={{ textDecoration: 'none' }} className='text-purple-900'> Keng Foundation </a>is devoted to creating an economic ecosystem
                 whose mandate is ensuring healthy living standards for the global population.
             </p>
-            <p className='mt-6  px-8 lg:px-40  lg:text-xl text-center'>
+            <p className='mt-6  px-3 lg:px-40  lg:text-xl text-center'>
                 We envision a 100% global employment rate to ensure all people earn at least a basic
                 living with total access to basic needs .</p>
 
-            <div className='w-full lg:flex mt-24 lg:mt-56 px-20'>
+            <div className='w-full lg:flex mt-24 lg:mt-56 px-3 lg:px-20'>
                 <div className='w-full lg:w-1/2'>
                     <p className='text-3xl lg:text-6xl text-purple-900 font-bold'>
                         Register with us
@@ -57,7 +57,7 @@ const Home = () => {
                     <img className='rounded-3xl' src={register} alt='logo' />
                 </div>
             </div>
-            <div className='w-full lg:flex flex-row-reverse mt-24 lg:mt-56 px-20'>
+            <div className='w-full lg:flex flex-row-reverse mt-24 lg:mt-56 px-3 lg:px-20'>
                 <div className='lg:w-1/2'>
                     <p className='text-3xl lg:text-6xl text-purple-900 font-bold'>
                         Everything Remote
@@ -76,7 +76,7 @@ const Home = () => {
                     <img className='rounded-3xl' src={remote} alt='logo' />
                 </div>
             </div>
-            <div className='w-full lg:flex mt-24 lg:mt-56 px-20'>
+            <div className='w-full lg:flex mt-24 lg:mt-56 px-3 lg:px-20'>
                 <div className='lg:w-1/2'>
                     <p className='text-3xl lg:text-6xll text-purple-900 mr-16 font-bold'>
                         Contribute to securing healthy economies.

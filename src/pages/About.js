@@ -11,8 +11,8 @@ const About = () => {
     return (
         <div className='w-full  text-xl text-white'>
             <div className='w-full items-center  lg:px-20'>
-                <div className=' items-center justify-center my-10 lg:my-28 flex'>
-                    <p className='text-2xl lg:text-6xl mr-3 lg:mr-20 font-bold'>
+                <div className='items-center justify-center my-10 lg:my-28 flex'>
+                    <p className='text-2xl lg:text-6xl mr-3 my-auto lg:mr-20 font-bold'>
                         About Us
                     </p>
                     <button className='text-black bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500  bg-white self-center rounded-3xl'>
@@ -27,7 +27,7 @@ const About = () => {
                 Our Team
             </p>
 
-            <div className='w-full lg:flex items-center justify-end mt-20 lg:mt-56 px-10 lg:px-auto'>
+            <div className='w-full lg:flex items-center justify-end mt-20 lg:mt-56 px-3 lg:px-auto'>
                 <div className=''>
                     <p className='text-2xl lg:text-6xl text-purple-900 font-bold'>
                         Mmanto Ramaila
@@ -40,7 +40,7 @@ const About = () => {
                     <img className='rounded-3xl lg:w-1/2' src={mmanto} alt='logo' />
                 </div>
             </div>
-            <div className='w-full lg:ml-8 lg:flex items-center justify-end mt-20 px-10 lg:mt-56 lg:px-auto'>
+            <div className='w-full lg:ml-8 lg:flex items-center justify-end mt-20 px-3 lg:mt-56 lg:px-auto'>
                 <div className=''>
                     <p className='text-3xl lg:text-6xl text-purple-900 font-bold'>
                         Nate Mthemwa
@@ -53,7 +53,7 @@ const About = () => {
                     <img className='rounded-3xl lg:w-1/2' src={nate} alt='logo' />
                 </div>
             </div>
-            <div className='w-full lg:ml-8 lg:flex items-center justify-end mt-20 px-10 lg:mt-56 lg:px-auto'>
+            <div className='w-full lg:ml-8 lg:flex items-center justify-end mt-20 px-3 lg:mt-56 lg:px-auto'>
                 <div className=''>
                     <p className='text-3xl lg:text-6xl text-purple-900 font-bold'>
                         Larry Kingstone
