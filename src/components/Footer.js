@@ -20,16 +20,16 @@ const Footer = () => {
                         Connect
                     </p>
                     <p className='my-2 text-sm lg:text-xl'>
-                        123-456-7890
+                        068 379 3865
                     </p>
                     <p className='my-2 text-sm lg:text-xl'>
-                        610 Main St Vancouver,
+                        Johannesburg,
                     </p>
                     <p className='my-2 text-sm lg:text-xl'>
-                        BC V6A 2V3,
+                        Gauteng,
                     </p>
                     <p className='my-2text-sm lg:text-xl '>
-                        Canada
+                        South Africa
                     </p>
                     <p className='my-2 text-sm lg:text-xl'>
                         info@kf.vertueal.com
